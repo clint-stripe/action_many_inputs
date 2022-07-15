@@ -1,0 +1,7 @@
+sh_test(
+    name = "input_test",
+    srcs = ["input_test.sh"],
+    data = [
+        "@fake_data//:everything",
+    ],
+)
